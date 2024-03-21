@@ -1,0 +1,39 @@
+.create-access-level-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .access-level-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .access-level-form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .access-level-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .add-access-level-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-access-level-button:hover {
+    background-color: #0056b3;
+  }
+  

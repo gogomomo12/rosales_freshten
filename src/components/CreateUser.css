@@ -1,0 +1,43 @@
+.create-user-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .create-user-form label {
+    display: block;
+    margin-bottom: 10px; /* Add margin bottom for spacing between labels */
+  }
+  
+  .create-user-form input,
+  .create-user-form select {
+    width: 100%; /* Make inputs and select full width */
+    padding: 10px;
+    margin-bottom: 20px; /* Add margin bottom for spacing between form elements */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .create-user-form input[type="date"] {
+    /* Adjust vertical alignment for date input */
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  
+  .create-user-button {
+    width: 100%; /* Make button full width */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-user-button:hover {
+    background-color: #0056b3;
+  }
+  
